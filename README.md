@@ -64,7 +64,7 @@ which is an instance of [Pell's equation][pell]
 
 ### Solution
 
-Pell's equation can be solved by means of finding [convergents][] of
+Pell's equation can be solved by means of finding convergents of
 the [continued fraction][] expansion of the square root of two.
 
 Using this method and substituting the solutions back into its
