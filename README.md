@@ -25,7 +25,7 @@ We call *S(m)* the mth triangular number, i.e.
 
 By a [famous trick][trick] of [Gauss][], one has
 
-> S(m) = m * (m + 1) / 2
+> S(m) = m(m + 1) / 2
 
 ### Problem Statement
 
@@ -46,15 +46,15 @@ square.
 
 From the formula for the nth triangular number
 
-> S(n) = n * (n + 1) / 2
+> S(n) = n(n + 1) / 2
 
 We get, by using the identity *(a - b) (a + b) = a^2 - b^2*
 
-> n * (n + 1) / 2 = (n + 1/2 - 1/2) * (n + 1/2 + 1/2) / 2 = [(2 * n + 1)^2 - 1] / 8
+> n (n + 1) / 2 = (n + 1/2 - 1/2)  (n + 1/2 + 1/2) / 2 = [(2n + 1)^2 - 1] / 8
 
 Equating this to the square *m^2*
 
-> (2 * n + 1)^2 = 8 * m^2 - 1
+> (2n + 1)^2 = 8m^2 - 1
 
 Substituting *x = 2n + 1* and *y = 2m* this reduces to
 
@@ -70,8 +70,8 @@ the [continued fraction][] expansion of the square root of two.
 Using this method and substituting the solutions back into its
 original form one gets the recurrence relations as stated below
 
-> s(n) = 6 * s(n-1) - s(n-2)
-> t(n) = 6 * t(n-1) - t(n-2) + 2
+> s(n) = 6s(n-1) - s(n-2)
+> t(n) = 6t(n-1) - t(n-2) + 2
 
 [trick]: http://mathcentral.uregina.ca/QQ/database/QQ.02.06/jo1.html
 [Gauss]: http://en.wikipedia.org/wiki/Carl_Friedrich_Gauss
